@@ -1,0 +1,86 @@
+/* primary text color #757575 */
+
+/* second-text-color :#212121   */
+
+/* accent-text-color :#2196F3 */
+
+/* accent-text-color-hero :#FFFFFF 
+
+rbga ( 255,255,255,0.6) -color for text adres footer*/
+
+/* back-round color #FFFFFF */
+/* back-round color for footer and hero #2F303A  */
+
+/* back-round color for main" portfolio" and section adventeges and "what we do"#E5E5E5*/
+
+/* back-round color for section our team #F5F4FA */
+:root{
+   --primary-text-color :#757575;
+   --second-text-color: #212121;
+   --accent-text-color: #2196F3;
+   --accent-text-color-white: #FFFFFF;
+   --footer-text-color:#FFFFFF99;
+   --back-round-color:#FFFFFF;
+   --back-round-color-footer-hero:#2F303A;
+   --back-round-color-section:#E5E5E5;
+   --back-round-color-team:#F5F4FA;
+}
+body{background-color:var(--back-round-color) ;
+   color:var(--primary-text-color);
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+/* Header */
+.list{
+   list-style: none;
+}
+/* logo */
+.logo {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1, 19;
+   letter-spacing: 0.03em;
+   color: var(--accent-text-color);
+}
+
+.logo-accent {
+   color: var(--second-text-color);
+}
+/* site-nav */
+.site-nav .link{
+   color: var(--second-text-color);
+} 
+.site-nav .link:hover,
+.site-nav .link:focus{
+   color: var(--accent-text-color);
+}
+/* contacts */
+.contacts .link{
+   color: var(--primary-text-color);
+}
+.contacts .link:hover,.link:focus{
+   color: var(--accent-text-color);
+}
+/* main */
+/* hero */
+.hero{
+   background-color:var(--back-round-color-footer-hero) ;
+}
+.hero-title{
+   color: var(--accent-text-color-white);
+}
+/* section */
+.section-title{
+   color: var(--second-text-color);
+}
+/* features */
+.features-list .title{
+   color: var(--second-text-color);
+}
+/* comands */
+.comands-list .title{
+   color: var(--second-text-color);
+}
