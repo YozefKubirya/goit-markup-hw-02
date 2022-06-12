@@ -105,9 +105,9 @@ body{background-color:var(--back-round-color) ;
 }
 
 /* button */
-.button{
-   background-color: var(--back-round-color);
-   color: var(--primary-text-color);
+.button.primary{
+   background-color: var(--accent-text-color);
+   color: var(--accent-text-color-white);
    font-family: inherit;
       font-weight: 700;
       font-size: 16px;
@@ -119,10 +119,26 @@ body{background-color:var(--back-round-color) ;
       letter-spacing: 0.06em;
       cursor: pointer;
 }
-.button.primary{
+
+
+.button.secondary{
+   background-color: var(--back-round-color-team);
+   color: var(--second-text-color);
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.6;
+      /* identical to box height, or 162% */
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+.button.secondary:hover,
+.button.secondary:focus{
    background-color: var(--accent-text-color);
    color: var(--accent-text-color-white);
 }
+
 
 /* section */
 .section-title{
@@ -226,4 +242,24 @@ body{background-color:var(--back-round-color) ;
 .footer .logo-accent {
    color: var(--accent-text-color-white);
 }
-
+/* portfolio */
+.portfolio-proects .title{
+   color: var(--second-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   /* identical to box height, or 200% */
+   letter-spacing: 0.06em;
+}
+.portfolio-proects.text{
+   color: var(--primary-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.9;
+   /* identical to box height, or 188% */
+   letter-spacing: 0.03em;
+}
