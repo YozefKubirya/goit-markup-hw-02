@@ -27,7 +27,13 @@ rbga ( 255,255,255,0.6) -color for text adres footer*/
 }
 body{background-color:var(--back-round-color) ;
    color:var(--primary-text-color);
-   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-family: Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      'Open Sans',
+      'Helvetica Neue',
+      sans-serif;
       font-weight: 400;
       font-style: normal;
 }
@@ -38,13 +44,13 @@ body{background-color:var(--back-round-color) ;
 
 /* logo */
 .logo {
+   color: var(--accent-text-color);
    font-family: 'Raleway', sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 26px;
    line-height: 1, 19;
    letter-spacing: 0.03em;
-   color: var(--accent-text-color);
 }
 
 .logo-accent {
@@ -54,6 +60,10 @@ body{background-color:var(--back-round-color) ;
 /* site-nav */
 .site-nav .link{
    color: var(--second-text-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.1;
+   letter-spacing: 0.02em;
 } 
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -66,6 +76,10 @@ body{background-color:var(--back-round-color) ;
 /* contacts */
 .contacts .link{
    color: var(--primary-text-color);
+   font-weight: 500;
+      font-size: 14px;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
 }
 .contacts .link:hover,.link:focus{
    color: var(--accent-text-color);
@@ -78,12 +92,28 @@ body{background-color:var(--back-round-color) ;
 }
 .hero-title{
    color: var(--accent-text-color-white);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.4;
+   /* or 136% */
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 
 /* button */
 .button{
-   color: var(--primary-text-color);
    background-color: var(--back-round-color);
+   color: var(--primary-text-color);
+   font-family: inherit;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.9;
+      /* identical to box height, or 188% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.06em;
 }
 .button.primary{
    background-color: var(--accent-text-color);
@@ -92,26 +122,86 @@ body{background-color:var(--back-round-color) ;
 
 /* section */
 .section-title{
-   color: var(--second-text-color);
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.1;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
 }
 /* features */
 .features-list .title{
-   color: var(--second-text-color);
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.1;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+}
+.features-list .text{
+   color: var(--primary-text-color);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      /* or 171% */
+      letter-spacing: 0.03em;
+}
+/* what we do */
+.section-job{
+      color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 0.03em;
 }
 /* comands */
+.section-comand{
+    color: var(--second-text-color);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 0.03em;
+}
 .comands-list .title{
-   color: var(--second-text-color);
+      color: var(--second-text-color);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.2;
+      /* identical to box height */
+      letter-spacing: 0.03em;
+}
+.comands-list .profession{
+   color: var(--primary-text-color);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.2;
+   /* identical to box height */
+   letter-spacing: 0.03em;
 }
 
 /* footer */
 .footer{
-   background-color: var(--back-round-color-footer-hero);
+  background-color: var(--back-round-color-footer-hero);
 }
-.footer .title{
-   color: var(--accent-text-color-white);
+.footer .text{
+      color: var(--accent-text-color-white);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      /* or 171% */
+      letter-spacing: 0.03em;
+      
 }
 .address .link{
-   color: var(--primary-text-color);
+      color: var(--primary-text-color);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      /* or 171% */
+      letter-spacing: 0.03em;
 }
 .address .link:hover,.link:focus{
    color: var(--accent-text-color);
