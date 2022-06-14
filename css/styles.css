@@ -63,7 +63,7 @@ body{background-color:var(--back-round-color) ;
    color: var(--second-text-color);
    font-weight: 500;
    font-size: 14px;
-   line-height: 1.1;
+   line-height: 1.14;
    letter-spacing: 0.02em;
    text-decoration: none;
 } 
@@ -80,7 +80,7 @@ body{background-color:var(--back-round-color) ;
    color: var(--primary-text-color);
    font-weight: 500;
       font-size: 14px;
-      line-height: 1.1;
+      line-height: 1.14;
       letter-spacing: 0.02em;
       text-decoration: none;
 }
@@ -97,7 +97,7 @@ body{background-color:var(--back-round-color) ;
    color: var(--accent-text-color-white);
    font-weight: 900;
    font-size: 44px;
-   line-height: 1.4;
+   line-height: 1.36;
    /* or 136% */
    text-align: center;
    letter-spacing: 0.06em;
@@ -111,7 +111,7 @@ body{background-color:var(--back-round-color) ;
    font-family: inherit;
       font-weight: 700;
       font-size: 16px;
-      line-height: 1.9;
+      line-height: 1.87;
       /* identical to box height, or 188% */
       display: flex;
       align-items: center;
@@ -128,7 +128,7 @@ body{background-color:var(--back-round-color) ;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.62;
       /* identical to box height, or 162% */
       text-align: center;
       letter-spacing: 0.03em;
@@ -154,7 +154,7 @@ body{background-color:var(--back-round-color) ;
       color: var(--second-text-color);
       font-weight: 700;
       font-size: 14px;
-      line-height: 1.1;
+      line-height: 1.14;
       letter-spacing: 0.03em;
       text-transform: uppercase;
 }
@@ -162,7 +162,7 @@ body{background-color:var(--back-round-color) ;
    color: var(--primary-text-color);
       font-weight: 400;
       font-size: 14px;
-      line-height: 1.7;
+      line-height: 1.71;
       /* or 171% */
       letter-spacing: 0.03em;
 }
@@ -171,7 +171,7 @@ body{background-color:var(--back-round-color) ;
       color: var(--second-text-color);
       font-weight: 700;
       font-size: 36px;
-      line-height: 1.2;
+      line-height: 1.16;
       text-align: center;
       letter-spacing: 0.03em;
 }
@@ -180,7 +180,7 @@ body{background-color:var(--back-round-color) ;
     color: var(--second-text-color);
       font-weight: 700;
       font-size: 36px;
-      line-height: 1.2;
+      line-height: 1.16;
       text-align: center;
       letter-spacing: 0.03em;
 }
@@ -188,7 +188,7 @@ body{background-color:var(--back-round-color) ;
       color: var(--second-text-color);
       font-weight: 500;
       font-size: 16px;
-      line-height: 1.2;
+      line-height: 1.18;
       /* identical to box height */
       letter-spacing: 0.03em;
 }
@@ -196,7 +196,7 @@ body{background-color:var(--back-round-color) ;
    color: var(--primary-text-color);
    font-weight: 400;
    font-size: 16px;
-   line-height: 1.2;
+   line-height: 1.18;
    /* identical to box height */
    letter-spacing: 0.03em;
 }
@@ -215,7 +215,7 @@ body{background-color:var(--back-round-color) ;
       
 }
 .address .link{
-      color: var(--primary-text-color);
+      color: var(--footer-text-color);
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -259,7 +259,7 @@ body{background-color:var(--back-round-color) ;
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
-   line-height: 1.9;
+   line-height: 1.87;
    /* identical to box height, or 188% */
    letter-spacing: 0.03em;
 }
